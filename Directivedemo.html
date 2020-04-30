@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+    <title>Directives in Angular</title>
+  </head>
+  <body ng-app="dineshApp">
+    <dinesh-Test-Directive></dinesh-Test-Directive>
+<script type="text/javascript">
+  var app=angular.module("dineshApp",[]);
+  app.directive('dineshTestDirective',function(){
+    return{
+      template:"<<h1>Dinesh Kumar Angular Directive</h1>"
+    };
+  });
+</script>
+
+
+
+  </body>
+</html>
